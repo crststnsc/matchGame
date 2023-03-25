@@ -1,0 +1,13 @@
+﻿<Window x:Class="matchGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="480" Width="848">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="173,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Unispace" FontSize="24" Text="Username:"/>
+        <TextBlock HorizontalAlignment="Left" Margin="173,160,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" FontFamily="Unispace" FontSize="24"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Center" Margin="0,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Height="29" TextChanged="TextBox_TextChanged"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Center" Margin="0,160,0,0" VerticalAlignment="Top" Width="208" Height="29"/>
+        <Button x:Name="loginButton" Content="LOGIN" HorizontalAlignment="Center" Margin="0,231,0,0" VerticalAlignment="Top" Height="59" Width="208" Click="Button_Click" FontFamily="Unispace"/>
+        <Button x:Name="registerButton" Content="REGISTER" HorizontalAlignment="Center" Margin="0,310,0,0" VerticalAlignment="Top" Height="59" Width="208" FontFamily="Unispace" Click="Button_Click_1"/>
+    </Grid>
+</Window>
